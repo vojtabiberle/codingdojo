@@ -104,6 +104,6 @@ class Corridor
 	}
 }
 
-$c = new Corridor;
+$c = new Corridor(1000);
 $c->walk();
 echo $c;
